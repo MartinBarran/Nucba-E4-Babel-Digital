@@ -1,0 +1,284 @@
+@font-face {
+    font-family: "Comfortaa";
+    src: url"./fonts/ABeeZee,Comfortaa,Playfair_Display,Quicksand/Comfortaa/Comfortaa-VariableFont_wght.ttf";
+
+}
+
+* {
+    font-family: "Comfortaa";
+    
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.navbar-header {
+   
+    width: 95%;
+    height: 12vh;
+    background-color: #d6e3f8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 0px 17px -1px #000000;
+    border-radius: 10px;
+    
+}
+
+.navbar-ul {
+    display: flex;
+    grid-gap: 60px;
+    list-style: none;
+}
+
+
+.navbar-ul li {
+    font-size: 20px;
+    color: #584b53;
+     
+ 
+}
+
+.img-header {
+    height: 220%;
+    
+}
+
+.section-hero{
+    width: 95%;
+    height: 60vh;
+    background-color: #d6e3f8;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 17px -1px #000000;
+         
+}
+
+.container-hero{
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;    
+    background-color: #d6e3f8;
+    width: 35%;
+    grid-gap: 20px;
+    
+    
+}
+
+.img-hero {
+    
+    
+    height: 80%;
+    width: 30%;
+
+}
+
+.container-hero-buttons{
+    display: flex;
+    grid-gap: 20px;
+   
+    
+}
+
+.container-hero-buttons button{
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 30px;
+    border-width: 3px;
+    font-size: 20px;
+    margin-top: 10px;
+    
+   
+    
+}
+    
+.button1 {
+    background-color: #d6e3f8;
+    border-color: #584b53;
+    color: #584b53;
+}
+
+.button2 {
+    background-color: #584b53;
+    border-color: #d6e3f8;
+    color: #d6e3f8;
+}
+
+
+.section-cards {
+    width: 95%;
+    height: 70vh;
+    
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+    
+}
+
+.container-cards{
+   
+    width: 80%;
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.container-cards-img{
+    width: 100%;
+    height: 60%;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.img-card{
+    width: 100%;
+    height: 20vh;
+    
+    
+}
+
+
+
+
+.container-benefits{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-around;
+    height:80%;
+    width: 25%;
+}
+
+.section-contacto{
+    height:60vh;
+    width: 95%;
+    display: flex;    
+    align-items: center;
+    justify-content: space-around;
+}
+.container-contacto{
+    width:65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.container-contacto-int{
+    
+    width: 80%;
+    display:flex;
+    justify-content: space-around;
+   
+}
+
+.contacto-int-columna{
+    flex-direction:column;
+    display: flex;
+    
+    align-items: left;
+    
+}
+
+.contacto{
+    text-align: left;
+    width:80%;
+    margin-bottom: 0px;
+}
+
+.img-contacto{
+    height:80%;
+    margin-right: 120px;
+}
+
+
+.social-media{
+    height:10vh;
+    width: 65%;
+    display: flex;
+    gap:30px;
+    
+}
+
+
+
+footer{
+    width: 95%;
+    height: 12vh;
+    background-color: #d6e3f8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 0px 17px -1px #000000;
+    border-radius: 10px;
+    
+}
+
+button{
+    animation-name: opacidad;
+    animation-duration: 5s;
+}
+
+img {
+    animation-name: opacidad;
+    animation-duration: 5s;
+}
+
+hr{
+    width:95%;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 0px;
+    color: #584b53;
+}
+
+label{
+    
+    color: #584b53;
+
+}
+
+h1{
+    font-size: 32px;
+    text-align: center;
+    color: #584b53;
+    
+}
+
+h2{
+    text-align: center;
+    color: #584b53;
+
+}
+
+h3{
+    color: #584b53;
+}
+
+@keyframes opacidad { 
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
